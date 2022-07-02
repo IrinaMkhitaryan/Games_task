@@ -1,0 +1,23 @@
+.content {
+    display: flex;
+}
+
+.menu {
+    width: 250px;
+}
+
+.games {
+    display: flex;
+    width: 90%;
+}
+
+.big {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.small {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}

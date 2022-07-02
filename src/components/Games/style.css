@@ -1,0 +1,10 @@
+.image {
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+}
+.imageContent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,15 @@
+.imageContent {
+    position: relative;
+}
+.image {
+    position: relative;
+}
+.favImageLarge {
+    position: absolute;
+    z-index: 1;
+    left: 476px
+}
+.favImageSmall {
+    position: absolute;
+    z-index: 1;
+}
