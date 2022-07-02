@@ -1,15 +1,24 @@
-.imageContent {
+.largeImageContent {
     position: relative;
+    width: 250px;
+}
+.smallImageContent {
+    position: relative;
+    width: 120px;
 }
 .image {
     position: relative;
 }
-.favImageLarge {
+.favImage {
     position: absolute;
     z-index: 1;
-    left: 476px
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
 }
-.favImageSmall {
+.name {
     position: absolute;
     z-index: 1;
+    right: 15px;
+    top: 30px;
 }

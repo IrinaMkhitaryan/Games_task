@@ -4,13 +4,8 @@ const initialState = {
     category: [],
     gamesList: []
 };
-
 export const gamesReducer = (state = initialState, action) => {
-    switch(action.type) {
-        // case catsActionTypes.GET_CATEGORY_SUCCESS:
-        //     return { ...state, category: action.payload };
-        // case catsActionTypes.GET_CATS_SUCCESS:
-        //     return { ...state, catsData: action.payload };
+    switch (action.type) {
         case gamesActionTypes.GET_GAMES_SUCCESS:
             return {
                 ...state,
