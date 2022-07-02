@@ -12,8 +12,6 @@ export const gamesActions = {
     getGames: () => async (dispatch) => {
         try {
             const response = await axios.get('./data/gamesList.json')
-            // const data = await response.json();
-            console.log(response)
             dispatch(gamesActions.getGamesSuccess(response.data));
             return response.data
         } catch (error) {
